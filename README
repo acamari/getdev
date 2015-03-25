@@ -1,0 +1,16 @@
+Get the path of a disk device using partial disk name
+or DUID.
+
+Requires partition name:
+
+$ sudo ./getdev sd0a
+/dev/rsd0a
+$ 
+
+$ sudo ./getdev 14321b373a25cb45.i 
+/dev/rsd0i
+$
+
+Tested in OpenBSD-current (as of 2015-jan-9) in amd64.
+--
+Bugs or comments to <acamari at verlet dot org>
