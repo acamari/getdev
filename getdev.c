@@ -18,10 +18,7 @@
 #include <fcntl.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
-#include <limits.h>
 #include <util.h>
-#include <string.h>
 
 extern	const char *__progname;
 void	usage(void);
