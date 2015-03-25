@@ -11,6 +11,12 @@ $ sudo ./getdev 14321b373a25cb45.i
 /dev/rsd0i
 $
 
+Useful to do things like:
+
+# dump -0auf`getdev 14321b373a25cb45.d` 14321b373a25cb45.a
+
+to backup your root partition into a d secondary partition.
+
 Tested in OpenBSD-current (as of 2015-jan-9) in amd64.
 --
 Bugs or comments to <acamari at verlet dot org>
